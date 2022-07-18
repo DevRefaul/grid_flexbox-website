@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+body{
+    background-color: #F3F1FF;
+    
+}
+hr{
+    margin: 30px 0px;
+border: 1px solid #D1D1D1;
+}
+/* -----------------
+        Header section style started
+--------------------*/
+.header{
+    background-color: #562EFF;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.nav-elements{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+}
+.logo span{
+    font-size: 40px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.menu nav{
+    display: flex;
+    align-items: center;
+}
+.menu nav a{
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.menu nav img{
+    width: 40px;
+}
+/* -----------------
+        Header section style done
+--------------------*/
+
+/* -----------------
+        Main section's  style started
+--------------------*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+#first-section{
+    width: 80%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 33px;
+
+}
+#first-section> h2{
+    color: #562EFF;
+    font-weight: 700;
+    margin: 0px 0px 40px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1.5em;
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 18px;
+}
+
+/* -----------------
+        Main section's blogs style started
+--------------------*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:70px;
+    grid-row-gap: 2em;
+}
+.blog{
+    display: flex;
+
+}
+.blog .img img{
+    width: 100%;
+}
+.blog-info h3{
+    font-size: 20px;
+}
