@@ -160,9 +160,11 @@ border: 1px solid #D1D1D1;
     align-items: center;
     padding: 13px;
 }
-
-.course .course-image img{
+.course-image{
     width: 90%;
+}
+.course .course-image img{
+    width: 100%;
 }
 .course-info .course-title{
     padding: 20px 0px;
